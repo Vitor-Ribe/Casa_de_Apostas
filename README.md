@@ -12,7 +12,7 @@
 
 > Aposta está associada a uma Partida através do Identificador da Partida
 
----
+#
 ### Variáveis:
 
 #### 🌐 Globais: 
@@ -27,7 +27,7 @@ Esse vetor é inicializado com zero no início do programa, e ao decorrer dele, 
 #### 🏠 Locais:
  > _FILE *ptarq_: É um ponteiro de arquivo, todas as funções usam esse mesmo nome para o ponteiro que recebe o arquivo através da função fopen.
 
----
+#
 ### Funções 📌
 
 - _void menu()_ : Exibe o menu principal do programa.
@@ -55,4 +55,4 @@ Esse vetor é inicializado com zero no início do programa, e ao decorrer dele, 
 - _void mostra_chaveCliente()_ : É responsável por percorrer todo o arquivo CHAVECLIENTE.bin  salvando seus dados em um vetor dinamicamente e exibindo-os na tela. Essa função só serve para uso em testes durante o processo de desenvolvimento do código, para ver se o arquivo CHAVECLIENTE.bin está sendo ordenado corretamente.
 
 - _void atualiza_chaveCliente()_ : Quando chamada na função “void novoCliente()”, recebe a struct “cliente” como parâmetro, abre o arquivo CHAVECLIENTE.bin  em modo de adição, copia o CPF e a posição do cliente no arquivo CADASTROS.bin.
----
+#
